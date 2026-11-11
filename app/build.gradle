@@ -1,0 +1,5 @@
+plugins { id 'com.android.application' }
+android { namespace 'com.forddrive.litek2001n'; compileSdk 35
+ defaultConfig { applicationId 'com.forddrive.litek2001n'; minSdk 26; targetSdk 28; versionCode 1; versionName '1.0-test' }
+ compileOptions { sourceCompatibility JavaVersion.VERSION_17; targetCompatibility JavaVersion.VERSION_17 }
+}
